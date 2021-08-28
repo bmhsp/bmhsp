@@ -2,4 +2,4 @@
 
 This is my landing page for other portfolio
 
-Please visit it https://bmhsp.github.io/bmhsp/
+Please visit https://bmhsp.github.io/bmhsp/
