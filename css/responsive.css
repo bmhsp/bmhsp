@@ -1,0 +1,123 @@
+:root {
+  --color-text: #373742;
+  --color-red: #f50057;
+  --color-blue: #00b0ff;
+  --color-yellow: #f4f655;
+  --color-orange: #f9a826;
+}
+
+/* 
+======================
+  Responsive Tablet
+======================
+*/
+@media (max-width: 768px) {
+  .navbar,
+  .navbar-fixed {
+    background-color: var(--color-text);
+  }
+  .nav-list {
+    width: 70%;
+  }
+  .nav-list a {
+    font-size: 1rem;
+  }
+  .about-wrapper {
+    height: 150%;
+  }
+  .about {
+    width: 95%;
+  }
+  .project-preview {
+    flex-direction: column;
+    height: 92%;
+    bottom: 0;
+  }
+  .preview {
+    width: 100%;
+    height: 25%;
+    flex-direction: column;
+    opacity: 1;
+  }
+  .preview img {
+    height: 250%;
+  }
+  .project {
+    flex-direction: column;
+    font-size: 0.8rem;
+    height: 105%;
+  }
+  .content {
+    flex-direction: column;
+    width: 100%;
+    height: 25%;
+  }
+  .content a {
+    padding: 0.3rem 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  #remove-social {
+    display: none;
+  }
+}
+
+/* 
+=======================
+  Responsive Mobile
+=======================
+*/
+@media (max-width: 576px) {
+  .navbar,
+  .navbar-fixed {
+    padding: 1.5rem 0;
+  }
+  .nav-list {
+    width: 75%;
+  }
+  .nav-list a {
+    font-size: 0.7rem;
+  }
+  .main-content h1 {
+    font-size: 2rem;
+  }
+  .main-content p {
+    font-size: 0.7rem;
+  }
+  .social {
+    height: 3%;
+    font-size: 0.7rem;
+  }
+  .about-wrapper {
+    height: 210%;
+  }
+  .about {
+    font-size: 0.7rem;
+  }
+  .hero-content {
+    flex-direction: column;
+  }
+  .contact {
+    width: 100%;
+    display: block;
+    font-size: 0.75rem;
+  }
+  .profile {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .project-preview {
+    height: 92%;
+  }
+  .preview img {
+    height: 175%;
+  }
+  .project {
+    font-size: 0.8rem;
+  }
+  .content a {
+    font-size: 0.5rem;
+  }
+  .content a p {
+    font-size: 0.5rem;
+  }
+}
