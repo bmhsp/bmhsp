@@ -200,7 +200,6 @@ body {
 .content {
   width: 33%;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 .content a {
