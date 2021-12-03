@@ -201,6 +201,7 @@ body {
   width: 33%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .content a {
   color: #fff;
